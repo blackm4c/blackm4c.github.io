@@ -8,6 +8,11 @@
 
 - type: email
   icon: "fas fa-envelope"
+  # noblank: true # open link in current tab
+
+- type: portfolio
+  icon: "fa-solid fa-user-tie"
+  url: "https://nelsondurairaj.life"
   noblank: true # open link in current tab
 
 # - type: rss
