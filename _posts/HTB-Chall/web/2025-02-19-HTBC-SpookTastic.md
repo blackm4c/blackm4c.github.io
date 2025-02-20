@@ -276,10 +276,10 @@ The blacklist only blocks the word "script". This means we can bypass the filter
 ### Bypassing the Blacklist
 Instead of using a `<script>` tag, we can use an `<img>` tag with an onerror event:
 
-`<img src=0 onerror=alert(1)>`
+`<img src=0 onerror=alert(1) />`
 
 Attack Steps:
-- Submit the payload as an email: `<img src=0 onerror=alert(1)>`
+- Submit the payload as an email: `<img src=0 onerror=alert(1) />`
 - The input passes the blacklist_pass check since it does not contain "script".
 - The bot processes the input and renders it in bot.html, where it executes as JavaScript.
 - The alert pops up, and the bot calls send_flag(user_ip), sending us the flag.
