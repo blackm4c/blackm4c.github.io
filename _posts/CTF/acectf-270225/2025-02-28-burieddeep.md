@@ -1,6 +1,6 @@
 ---
 title: ACECTF 2025 - web - Buried Deep
-date: 2025-02-28 10:00:30 +0530
+date: 2025-02-28 20:00:00 +0530
 categories: [CTF, acectf-2025]
 tags: [web, enumeration, cryptography]     # TAG names should always be lowercase
 description: A web exploitation challenge involving enumeration and cryptography.
@@ -10,6 +10,7 @@ toc: true
 # published: false
 ---
 
+---
 
 ## Initial Analysis
 
